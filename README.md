@@ -30,7 +30,8 @@ Shape-based Dataset we used in this project is now availble in: .
     ├── lung3d.csv
 
 We have also released our training, validation, and test splits in the lung3d.csv file.
-
+Link to the proposed Lung3D dataset:
+https://drive.google.com/drive/folders/1TrqXRw3kfjcdl26CYyxAL-S1eSrzcYUT?usp=sharing
 
 ## Usage
 
