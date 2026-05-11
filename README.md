@@ -24,14 +24,17 @@ Shape-based Dataset we used in this project is now availble in: .
         ├── lobe.nii.gz
         ├── lungsegment.nii.gz
         ├── vein.nii.gz
+        ├── preprocessed.npz
     ├── lung3d_00003
     ├── lung3d_00006
     ├── ...
     ├── lung3d.csv
 
+Each preprocessed.npz file contains the proprocessed (cropped and resized 3D shape of airway(B), artery(A), vein(V) and lobe(L)) shapes of anatomies, as well as necessary information during inference, and the ground truth target lung segments in original resolusion.
+
 We have also released our training, validation, and test splits in the lung3d.csv file.
 Link to the proposed Lung3D dataset:
-https://drive.google.com/drive/folders/1TrqXRw3kfjcdl26CYyxAL-S1eSrzcYUT?usp=sharing
+https://zenodo.org/records/20114109
 
 ## Usage
 
